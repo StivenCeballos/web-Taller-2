@@ -1,0 +1,23 @@
+{
+  "name": "taller-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StivenCeballos/web-Taller-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StivenCeballos/web-Taller-2/issues"
+  },
+  "homepage": "https://github.com/StivenCeballos/web-Taller-2#readme",
+  "dependencies": {
+    "mongodb": "^3.3.3"
+  }
+}
