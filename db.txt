@@ -1,0 +1,88 @@
+[
+    {
+        "name": "Moonlighter",
+        "price": 25.00,
+        "genre": "aventura",
+        "image": "/game1cover.jpg",
+        "description": "Hace mucho, durante una excavación arqueológica se descubrió un conjunto de portales. La gente no tardó en darse cuenta de que esos pasadizos ancestrales conectaban con distintas dimensiones y reinos en los que los valientes e intrépidos aventureros podían encontrar majestuosos tesoros. Cerca del lugar de la excavación se fundó una pequeña aldea de comerciantes llamada Rynoka en la que los aventureros podían descansar y vender sus preciadas mercancías."
+    },
+    {
+        "name": "Minit",
+        "price": 18.00,
+        "genre": "Puzzles",
+        "image": "/game2cover.jpg",
+        "description": "Minit es una peculiar aventura que se juega en dosis de sesenta segundos. Sal de la comodidad de tu hogar para ayudar a gente inusual, descubrir incontables secretos y superar a peligrosos enemigos, todo ello con la esperanza de acabar con una desafortunada maldición que hace que cada día termine en un minuto. Minit es una colaboración entre Kitty Calis, Jan Willem Nijman, Jukio Kallio y Dominik Johann."
+    },
+
+    {
+        "name": "Cave Story",
+        "price": 20.00,
+        "genre": "Plataformas",
+        "image": "/game3cover.jpg",
+        "description": "Podría decirse que es el juego indie más conocido de todos los tiempos. Cave Story nos ofrece una historia totalmente original con personalidad propia, misterio y horas de diversión a todo tren. Cave Story es un juego de acción y aventuras del diseñador independiente aclamado por la crítica Daisuke Amaya, o Pixel para sus fans. Con una personalidad y un encanto arrolladores, Cave Story te transporta a un extraño mundo en el que una curiosa raza de inocentes criaturas conejiles, llamadas Mimigas, campan en libertad."
+    },
+
+    {
+        "name": "Shovel Knight",
+        "price": 30.00,
+        "genre": "acción",
+        "image": "/game4cover.jpg",
+        "description": "Shovel Knight es un juego claramente inspirado por las aventuras de acción y plataformas de corte clásico, que presenta una estética retro de 8 bits. Un juego con apasionante ritmo y un delicioso apartado audiovisual de estilo retro."
+    },
+
+    {
+        "name": "Owlboy",
+        "price": 20.00,
+        "genre": "plataformas",
+        "image": "/game5cover.jpg",
+        "description": "Lo que sigue es un viaje a través de ruinas infestadas de monstruos, con encuentros inesperados y cargas que nadie debería soportar. Una carta de amor al pixel art para la nueva audiencia, Owlboy es un juego de exploración de mundos abiertos con una mezcla única de vuelo y plataformas."
+    },
+
+    
+    {
+        "name": "LIMBO",
+        "price": 20.00,
+        "genre": "aventura",
+        "image": "/game6cover.jpg",
+        "description": "Dudoso sobre el destino de su hermana, un niño entra en LIMBO."
+    },
+
+    
+    {
+        "name": "Hollow Knight",
+        "price": 25.00,
+        "genre": "acción",
+        "image": "/game7cover.png",
+        "description": "Hollow Knight es una aventura de acción clásica en 2D ambientada en un vasto mundo interconectado. Explora cavernas tortuosas, ciudades antiguas y páramos mortales. Combate contra criaturas corrompidas, haz amistad con extraños insectos y resuelve los antiguos misterios que yacen en el corazón de reino."
+    },
+    
+    {
+        "name": "Super Meat Boy",
+        "price": 10.00,
+        "genre": "plataformas",
+        "image": "/game8cover.jpg",
+        "description": "Nuestro carnoso héroe saltará por los muros, sobre mares de sierras circulares, a través de cuevas desmenuzadas y por encima de piscinas de agujas usadas. Sacrificará su propio bienestar para salvar a su damisela en apuros. Super Meat Boy trae de vuelta aquella dificultad de los clásicos títulos de NES como Mega Man 2, Ghost and Goblins y Super Mario Bros. 2 (el japonés) y los simplifica hasta dejar la esencia, un juego de plataformas en el que hay que avanzar como un loco y mantener nuestros reflejos a punto."
+    },
+
+        
+    {
+        "name": "Nidhogg",
+        "price": 15.00,
+        "genre": "acción",
+        "image": "/game9cover.jpg",
+        "description": "Nidhogg es un frenético juego de acción en 2D, con un estilo visual propio de los clásicos de Spectrum, en el que dos jugadores se baten en alocados duelos con espada. Estocadas, patadas a la barriga, saltos acrobáticos… todo vale con tal de acabar con tu rival."
+    },
+
+    {
+        "name": "Axiom Verge",
+        "price": 20.00,
+        "genre": "acción",
+        "image": "/game10cover.jpg",
+        "description": "Tras sufrir un accidente en un laboratorio, un científico despierta en un misterioso mundo alienígena. ¿Está en un lejano planeta? ¿En el futuro? ¿O se trata de una completa realidad virtual producto de un simulador informático?"
+    }
+
+
+    
+    
+    
+]

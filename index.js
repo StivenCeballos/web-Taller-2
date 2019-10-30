@@ -24,3 +24,14 @@ const port = 3000;
 
 // definir una carpeta como pública
 app.use(express.static('public'));
+
+app.get('/', (request, response)=>{
+    response.sendFile(__dirname+'/public/splashpage/index.html');
+});
+
+app.get('/tienda', (request, response)=>{
+    response.render('products');
+}
+);
+
+app.listen(port);
