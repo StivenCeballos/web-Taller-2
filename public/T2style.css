@@ -102,6 +102,7 @@ header{
     padding:1vw;
 }
 .item{
+    border:none;
     width: 15vw;
     height:30vw;
     display: flex;

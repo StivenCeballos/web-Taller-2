@@ -9,10 +9,11 @@
         <hr>
     </div>
     <div class="items">
-        <div class="item">
-            <img class="itemimg" src="./src/img" alt="game1">
-            <div class="name"></div>
-            <div class="price"></div>
-        </div>
-      
+        {{#each products}}
+        <button class="item">
+            <img class="itemimg" src="/src/img/{{image}}">
+            <div class="name">{{name}}</div>
+            <div class="price">${{price}}.00</div>
+        </button>
+      {{/each}}
     </div> 
