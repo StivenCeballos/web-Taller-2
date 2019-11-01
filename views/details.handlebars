@@ -1,13 +1,19 @@
-<div class="container">
-    <div class="column1">
-        {{name}}
-        {{genre}}
-        {{description}}
+<div class="details">
+        <div class="details__container">
+            <div class="container__info">
+                <strong class="title">{{name}}</strong>
+                <p class="p">{{genre}}</p>
+                <p class="p"> {{description}}</p>  
+                <div clasS="info__images">
+                    <div class="photob">{{gameplayA}}</div>
+                    <div class="photob">{{gameplayB}}</div>
+                </div>
+                
+                <button class="comprar"> añadir al carrito</button>
+            </div>
+            <div class="container__photo">
+                <img class="photo" src="/src/img/{{image}}">
+                <p class="price">{{price}}</p> 
+            </div>
+        </div>
     </div>
-    <div class="column2">
-        <img src="/src/img/{{image}}" >
-        {{price}}
-    </div>
-    
-
-</div>
