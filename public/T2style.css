@@ -4,7 +4,6 @@ html{
 }
 body{
     margin:0;
-    overflow: hidden;
     background-color: rgba(229, 229, 229, 1);
 }
 
@@ -112,6 +111,7 @@ header{
     background-color: white;
     font-family: 'Bai Jamjuree', sans-serif; 
     font-weight: bold;
+    transition-duration: 0.5s;
 }
 .items{
     widows: 100%;

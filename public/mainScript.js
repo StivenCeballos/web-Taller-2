@@ -6,6 +6,6 @@ function handleClick (event) {
     console.log("siwenas");
     var midiv = document.createElement("div");
     midiv.setAttribute("class","cartActive");
-    midiv.innerHTML = "<p>Este es el contenido de mi div</p>";
+    midiv.innerHTML = "<p>Hola</p>";
     kart.appendChild(midiv);
   }
