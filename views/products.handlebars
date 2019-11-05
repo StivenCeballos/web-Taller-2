@@ -1,12 +1,32 @@
 <div class="filters">
-         <strong>Ordenado por: </strong> <select name="selector" id="selectOrder">
+         <strong>filtrar por: </strong> <select name="selector" class="selectFilter">
              <option value="1" selected> Todos </option>
-             <option value="2">Género</option>
-             <option value="4">Oferta</option>
+             <option value="2">de $20.00 a $30.00</option>
+             <option value="3">$20.00 o menos</option>
 
          </select>
-        <hr>
+
+         <strong>Género: </strong> <select name="genreselector" class="selectGenre">
+             <option value="1" selected> Todos </option>
+             <option value="2">Acción</option>
+             <option value="3">Aventura</option>
+             <option value="4">puzzles</option>
+             <option value="5">Plataformas</option>
+
+         </select>
+
+         <strong>Ordenado por: </strong> <select name="selector" class="selectOrder">
+             <option value="1" selected> Todos </option>
+             <option value="2">Precio ascendente</option>
+             <option value="3">Precio descendente</option>
+             <option value="4">A-Z</option>
+             <option value="5">Z-A</option>
+
+         </select>
+          
+        
     </div>
+    <hr>
     <div class="items">
         {{#each products}}
         <a class="item" href="/detalle/{{_id}}">
@@ -16,5 +36,9 @@
         </a>
       {{/each}}
     </div> 
+
+    <script src="T2script.js"></script>
+
+
 
  
