@@ -1,19 +1,21 @@
 <div class="details">
+    {{#each products}}
         <div class="details__container">
             <div class="container__info">
                 <strong class="title">{{name}}</strong>
                 <p class="p">{{genre}}</p>
                 <p class="p"> {{description}}</p>  
                 <div clasS="info__images">
-                    <div class="photob">{{gameplayA}}</div>
-                    <div class="photob">{{gameplayB}}</div>
+                    <img class="photob" src="/public/src/img/{{gameplayA}}">
+                    <img class="photob" src="/public/src/img/{{gameplayB}}">
                 </div>
                 
                 <button class="comprar"> añadir al carrito</button>
             </div>
             <div class="container__photo">
                 <img class="photo" src="/src/img/{{image}}">
-                <p class="price">{{price}}</p> 
+                <p class="priceB">${{price}}.00</p> 
             </div>
         </div>
+        {{/each}}
     </div>

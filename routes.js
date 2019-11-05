@@ -21,6 +21,24 @@ function createRoutes(app,db){
     }
     );
 
+    app.get('/detalle/:id', (request, response)=>{
+        var id = new ObjectID(request.params.id);
+        var products = db.collection('products').find({'_id':id})
+            .toArray((error, result) => {
+                assert.equal(null,error);
+
+                var context = {
+                    products: result
+                };
+
+                response.render('details',context);
+            });
+    }
+    );
+
+
+
+
 }
 
 module.exports=createRoutes;

@@ -101,6 +101,11 @@ header{
     align-content: stretch;
     padding:1vw;
 }
+
+a:link, a:hover, a:visited, a:active, a {
+    text-decoration:none;
+   color: black;
+}
 .item{
     border:none;
     width: 15vw;
@@ -132,6 +137,8 @@ header{
 
 }
 .name{
+    
+    text-decoration: none;
     align-self: flex-start;
     margin-left: 0.5vw;
     font-size: 1.8vw;;
@@ -139,6 +146,9 @@ header{
 
 }
 .price{
+    
+    text-decoration: none;
+    
     align-self: flex-end;
     margin-right: 0.5vw;
     margin-top: 1vw;
@@ -161,7 +171,7 @@ header{
 .details{
     width: 100%;
     height:100%;
-    
+    margin-bottom: 3vw;
     
 }
 .details__container{
@@ -194,7 +204,7 @@ header{
 }
 .photo{
     align-self: center;
-    background-color: steelblue;
+    
     width: 100%;
     height:28vw;
 
@@ -210,7 +220,7 @@ header{
 }
 .photob{
     align-self: center;
-    background-color: steelblue;
+    
     width: 30vw;
     height: 15vw;
     margin: 2vw;
@@ -228,7 +238,7 @@ header{
     font-size: 1.5vw;
     font-family: 'Bai Jamjuree', sans-serif; 
 }
-.price{
+.priceB{
     align-self: center;
     color: tomato;
     font-family: 'Anton', sans-serif;

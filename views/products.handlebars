@@ -9,10 +9,12 @@
     </div>
     <div class="items">
         {{#each products}}
-        <button class="item">
+        <a class="item" href="/detalle/{{_id}}">
             <img class="itemimg" src="/src/img/{{image}}">
             <div class="name">{{name}}</div>
             <div class="price">${{price}}.00</div>
-        </button>
+        </a>
       {{/each}}
     </div> 
+
+ 
