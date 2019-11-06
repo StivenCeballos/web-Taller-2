@@ -99,7 +99,109 @@
          "gameplayA": "gameplay10A.jpg",
         "gameplayB": "gameplay10B.jpg",
         "description": "Tras sufrir un accidente en un laboratorio, un científico despierta en un misterioso mundo alienígena. ¿Está en un lejano planeta? ¿En el futuro? ¿O se trata de una completa realidad virtual producto de un simulador informático?"
-    }
+    },
+
+      {
+        "name": "Hyperlight Drifter",
+        "price": 25.00,
+        "genre": "acción",
+        "image": "game11cover.jpg",
+        "gameplayA": "gameplay11A.jpg",
+        "gameplayB": "gameplay11B.jpg",
+        "description": "Explora un mundo precioso, inmenso y en ruinas, lleno de peligros y tecnologías perdidas. ... Hyper Light Drifter es un RPG de aventura y acción que emula a los mejores clásicos de 16 bits con mecánicas modernizadas y diseños a mayor escala."
+    },
+
+    {
+        "name": "FEZ",
+        "price": 15.00,
+        "genre": "Plataformas",
+        "image": "game12cover.jpg",
+        "gameplayA": "gameplay12A.jpg",
+        "gameplayB": "gameplay12B.jpg",
+        "description": "La perspectiva de las características 2D/3D de Fez cambia de una manera similar a Super Paper Mario y Crush. La jugabilidad 2D de Fez consiste en la mecánica típica de los juegos de plataformas, como saltar y trepar. El único rasgo de Fez en 3D es la capacidad para hacer girar el mundo 90° alrededor del eje y."
+    },
+
+      {
+        "name": "Nuclear Throne",
+        "price": 10.00,
+        "genre": "Acción",
+        "image": "game13cover.jpg",
+        "gameplayA": "gameplay13A.jpg",
+        "gameplayB": "gameplay13B.jpg",
+        "description": "Acción ultra frenética, retros difíciles, gráficos retro con influencia de los arcades de los 80 y 90, y pura adicción roguelike son las señas de identidad de Nuclear Throne, un videojuego ambientado en un cruel mundo post-apocalíptico en pie guerra donde lo único que importa es el hecho de sobrevivir."
+    },
+
+    {
+        "name": "Titan Souls",
+        "price": 20.00,
+        "genre": "Aventuras",
+        "image": "game14cover.jpg",
+        "gameplayA": "gameplay14A.jpg",
+        "gameplayB": "gameplay14B.jpg",
+        "description": "Acción, aventuras y un potente estilo retro en lo gráfico son las claves de Titan Souls, un título en el que la desafiante dificultad será la principal clave de su propuesta jugable."
+    },
+
+      {
+        "name": "Cuphead",
+        "price": 30.00,
+        "genre": "Acción",
+        "image": "game15cover.jpg",
+        "gameplayA": "gameplay15A.jpg",
+        "gameplayB": "gameplay15B.jpg",
+        "description": "Cuphead es un videojuego de acción-shooter, con elementos de plataformas y basado en la clásica mecánica de dispara y corre, ambientado en un simpático mundo repleto de misterios y poderes especiales así como jefazos a los que plantar cara. Con componente cooperativo, esta aventura invita a atravesar mundos extraños, adquirir nuevas armas, aprender poderosos movimientos y descubrir secretos ocultos mientras el protagonista salda su deuda con el diablo."
+    },
+
+     {
+        "name": "Celeste",
+        "price": 25.00,
+        "genre": "Plataformas",
+        "image": "game16cover.jpg",
+        "gameplayA": "gameplay16A.jpg",
+        "gameplayB": "gameplay16B.jpg",
+        "description": "El creador de TowerFall Ascension presenta Celeste, una aventura de plataformas de estilo retro que, inspirado en los clásicos de la era de los 16 bits, nos propone escalar una gigantesca y peligrosa montaña. En el videojuego Celeste hay más de 250 niveles con ambientaciones tan dispares como ruinas ancestrales, ciudades abandonadas, acantilados o hasta un complejo turístico asolado por los fantasmas."
+    },
+
+      {
+        "name": "Katana Zero",
+        "price": 15.00,
+        "genre": "Acción",
+        "image": "game17cover.jpg",
+        "gameplayA": "gameplay17A.jpg",
+        "gameplayB": "gameplay17B.jpg",
+        "description": "Katana Zero es un videojuego de acción táctica y con plataformas de scroll lateral 2D y gráficos pixel art con estética de neón de los 80'. La apuesta de Askiisoft se complementa con una acción frenética que incluye saltos por las paredes y ejecuciones en el aire, siempre de la mano del sigilo."
+    },
+
+    {
+        "name": "Broforce",
+        "price": 15.00,
+        "genre": "Acción",
+        "image": "game18cover.jpg",
+        "gameplayA": "gameplay18A.jpg",
+        "gameplayB": "gameplay18B.jpg",
+        "description": "Disparos, plataformas, explosiones y más de 90 alocados héroes parodiados de películas de acción de los años 80 y 90, son las claves de este juego de acción indie desarrollado por Free Lives."
+    },
+
+    {
+        "name": "Darkest Dungeon",
+        "price": 25.00,
+        "genre": "Puzzles",
+        "image": "game19cover.jpg",
+        "gameplayA": "gameplay19A.jpg",
+        "gameplayB": "gameplay19B.jpg",
+        "description": "Darkest Dungeon es un desafiante juego de mazmorras que destaca por lo atractivo de su estética y por el novedoso sistema de aflicción, que hará que nuestros personajes sufran de estrés durante sus incursiones bajo tierra. Esto modificará su forma de actuar, haciendo que algunos personajes huyan despavoridos, que se nieguen a pelear, o que se vuelvan más descuidados. Batallas, aventuras y progresión en mazmorras con un punto de vista diferente. Desde luego Darkest Dungeon no es un juego para todo el mundo, pero es precisamente eso lo que lo hace especial."
+    },
+
+    {
+        "name": "Enter The Gungeon",
+        "price": 20.00,
+        "genre": "Acción",
+        "image": "game20cover.jpg",
+        "gameplayA": "gameplay20A.jpg",
+        "gameplayB": "gameplay20B.jpg",
+        "description": "Enter the Gungeon es un frenético juego de mazmorras de estilo retro que nos propone explorar una amplia variedad de lúgubres entornos plagados de trampas mortales y enemigos a los que solo venceremos con la ayuda de un loco arsenal de armas de fuego que incluye rayos láser, lanzacohetes, ametralladoras, etc."
+    },
+
+    
 
 
     
