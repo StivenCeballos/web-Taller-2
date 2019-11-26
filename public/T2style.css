@@ -1,6 +1,7 @@
 
 html{
     scroll-behavior: smooth;
+    width:100%;
 }
 body{
     margin:0;
@@ -132,6 +133,8 @@ header{
     margin-left: 0.5vw;
 }
 
+
+
 .selectFilter{
     font-family: 'Bai Jamjuree', sans-serif; 
     font-weight: bold;
@@ -203,6 +206,8 @@ a:link, a:hover, a:visited, a:active, a {
     font-size: 2vw;;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+
 .hr{
     opacity: 250%;
 }
@@ -217,7 +222,8 @@ a:link, a:hover, a:visited, a:active, a {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    width:100%;
+    width:90%;
+    
 }
 
 .details{

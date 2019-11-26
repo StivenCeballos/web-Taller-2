@@ -36,9 +36,33 @@ function createRoutes(app,db){
     }
     );
 
+    app.post('/api/cartItems', (request, response)=>{
+
+        var carrito = db.collection('cart').find({})
+        .toArray((error, result) => {
+            assert.equal(null,error);
+            var listaObj = result[0]; 
+            listaObj.products.push(request.body.idProduct);
+
+        //     carrito.updateOne({ _id: new ObjectID(listaObj.id)},
+        //     {
+        //         $set: { products: listaObj.products}
+        //     }
+        // );
+
+        response.send({
+
+            message: 'ok',
+            listaObj
+
+        });
+           
+        });
+});
 
 
 
-}
+    }
+
 
 module.exports=createRoutes;
