@@ -76,7 +76,7 @@ app.get('/cartItems', (request, response)=>{
 
             var idsCart=[];
             
-            result[0].productos.forEach(id => {
+            result[0].products.forEach(id => {
                 idsCart.push(new ObjectID(id));
             });
 
