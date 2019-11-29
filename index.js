@@ -26,15 +26,17 @@ app.use(bodyParser.urlencoded({ extended: true }));
 const port = 3000;
 
 const client = new MongoClient('mongodb+srv://cluster0-iftk0.mongodb.net/tienda',
-{
+{ useUnifiedTopology: true },{
     auth:{
         user: 'ceballosdavid12',
         password: 'stevenson112'
     }
 },
+
 function (err,client){
     if(err) throw err;
 }
+
 );
 client.connect((error)=>{
     assert.equal(null,error);
