@@ -31,6 +31,9 @@ const client = new MongoClient('mongodb+srv://cluster0-iftk0.mongodb.net/tienda'
         user: 'ceballosdavid12',
         password: 'stevenson112'
     }
+},
+function (err,client){
+    if(err) throw err;
 }
 );
 client.connect((error)=>{
