@@ -28,7 +28,7 @@ const port = 3000;
 const client = new MongoClient('mongodb+srv://ceballosdavid12:stevenson112@cluster0-iftk0.mongodb.net/tienda?retryWrites=true&w=majority');
 client.connect((error)=>{
     assert.equal(null,error);
-    const db= client.db('store');
+    const db= client.db('tienda');
     createRoutes(app,db);
 }
 );

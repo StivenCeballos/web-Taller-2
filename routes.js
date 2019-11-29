@@ -10,7 +10,7 @@ function createRoutes(app,db){
     
     app.get('/tienda', (request, response)=>{
         
-        var products = db.collection('products').find({})
+        var products = db.collection('productos').find({})
             .toArray((error, result) => {
                 assert.equal(null,error);
 
@@ -25,7 +25,7 @@ function createRoutes(app,db){
 
     app.get('/detalle/:id', (request, response)=>{
         var id = new ObjectID(request.params.id);
-        var products = db.collection('products').find({'_id':id})
+        var products = db.collection('productos').find({'_id':id})
             .toArray((error, result) => {
                 assert.equal(null,error);
 
@@ -42,7 +42,7 @@ function createRoutes(app,db){
 
     app.post('/api/cartItems:_id', (request, response)=>{
             
-        var cart = db.collection('cart');
+        var cart = db.collection('elCarro');
         cart.find({}).toArray((err, result) => {
             assert.equal(null,err);
 
@@ -67,8 +67,8 @@ function createRoutes(app,db){
 
 app.get('/cartItems', (request, response)=>{
  
-    var products = db.collection('products');
-    var cartproducts = db.collection('cart');
+    var products = db.collection('productos');
+    var cartproducts = db.collection('elCarro');
         cartproducts.find({})
         .toArray((err,result)=>{
             
@@ -96,7 +96,7 @@ app.get('/cartItems', (request, response)=>{
 
         app.get('api/tienda', (request, response)=>{
                 
-            var products = db.collection('products');
+            var products = db.collection('productos');
                 if(request.query.genre == 'action'){
                     products.find({ genre: {$in: 'Acción' }})
                     .toArray((err,result) => {
