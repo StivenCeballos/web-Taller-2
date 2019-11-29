@@ -47,7 +47,7 @@ function createRoutes(app,db){
             assert.equal(null,err);
 
             var listaObj = result[0]; 
-            listaObj.products.push(request.params._id);
+            listaObj.productos.push(request.params._id);
             console.log(request.params._id);
             
             cart.updateOne({ _id: new ObjectID(listaObj._id)},
