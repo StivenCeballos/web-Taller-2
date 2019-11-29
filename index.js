@@ -25,10 +25,17 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // definir puerto
 const port = 3000;
 
-const client = new MongoClient('mongodb://localhost:27017');
+const client = new MongoClient('mongodb+srv://cluster0-iftk0.mongodb.net/tienda',
+{
+    auth:{
+        user: 'ceballosdavid12',
+        password: 'stevenson112'
+    }
+}
+);
 client.connect((error)=>{
     assert.equal(null,error);
-    const db= client.db('store');
+    const db= client.db('tienda');
     createRoutes(app,db);
 }
 );
@@ -37,4 +44,4 @@ app.use(express.static('public'));
 
 
 
-app.listen(port);
+app.listen(process.env.PORT ||3000);
