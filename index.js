@@ -25,7 +25,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // definir puerto
 const port = 3000;
 
-const client = new MongoClient('mongodb://localhost:27017');
+const client = new MongoClient('mongodb+srv://ceballosdavid12:stevenson112@cluster0-iftk0.mongodb.net/test?retryWrites=true&w=majority');
 client.connect((error)=>{
     assert.equal(null,error);
     const db= client.db('store');
@@ -37,4 +37,4 @@ app.use(express.static('public'));
 
 
 
-app.listen(port);
+app.listen(process.env.PORT ||3000);
