@@ -115,28 +115,5 @@ app.get('/cartItems', (request, response)=>{
 
 
     }
-    // app.post('/api/formulary/',(request,response)=>{
-    //     const cart = db.collection('cart'); //selecciono la colección de la base de datos
-    //     const buycart = db.collection('forms');
-    
-    //     cart.find({}).toArray((err, result) => {
-    //         assert.equal(null, err);
-    
-    //         var car = result[0];
-    // request.body.products = car.products;
-    // buycart.insertOne(request.body);
-    
-    // response.send({
-    //     message: 'ok'
-    // });
-    
-    //     });
-    
-        
-    // });
-  
-    
-
-   
 
 module.exports=createRoutes;
