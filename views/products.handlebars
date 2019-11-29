@@ -1,5 +1,5 @@
 <div class="filters">
-         <strong>filtrar por: </strong> <select name="selector" class="selectFilter">
+         <strong class="elstrong">filtrar por: </strong> <select name="selector" class="selectFilter">
              <option value="1" selected> Todos </option>
              <option value="2">de $20.00 a $30.00</option>
              <option value="3">$20.00 o menos</option>
@@ -8,7 +8,7 @@
 
          <strong>Género: </strong> <select name="genreselector" class="selectGenre">
              <option value="1" selected> Todos </option>
-             <option value="2">Acción</option>
+             <option value="action">Acción</option>
              <option value="3">Aventura</option>
              <option value="4">puzzles</option>
              <option value="5">Plataformas</option>
@@ -26,13 +26,15 @@
           
         
     </div>
-    <hr>
+    <hr class="elhr">
     <div class="items">
         {{#each products}}
         <a class="item" href="/detalle/{{_id}}">
             <img class="itemimg" src="/src/img/{{image}}">
+            <div class="itemtext">
             <div class="name">{{name}}</div>
             <div class="price"> ${{price}}.00</div>
+            </div>
         </a>
       {{/each}}
     </div> 

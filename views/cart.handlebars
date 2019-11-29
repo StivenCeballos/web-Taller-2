@@ -1,0 +1,48 @@
+<div class="cart__container">
+    
+    
+    <div class="products-cont">
+        {{#each products}}
+        <div class="cart-item" href="/detalle/{{_id}}">
+        <input type="image" class="delete" src="/src/img/delete.png">
+            <img class="itemimg" src="/src/img/{{image}}">
+            <div class="itemtext">
+            <div class="cart-name">{{name}}</div>
+            <div class="cart-price"> ${{price}}.00</div>
+            </div>
+        </div>
+      {{/each}}
+      </div>
+       <div class="pay">
+          <div class="form">
+        <div class="formulario">
+       <h1 class="ftittle"> Envío y pago</h1>
+
+       <h3 class="ftext">Nombre</h3>
+       <form class="options_form">
+       <input class="inputf" type="text">
+       <h3  class="ftext">Apellido</h3>
+       <input class="inputf"  type="text">
+       <h3  class="ftext">Cédula</h3>
+       <input class="inputf"  type="text">
+       <h3  class="ftext">Dirección</h3>
+       <input class="inputf"  type="text">
+       <h3  class="ftext">Código Postal</h3>
+       <input class="inputf"  type="text">
+       <div class="action">
+        <input class="buy" type="submit" value="Confirmar compra" >
+        </form>
+    </div>
+       
+       
+    </div>
+    
+      
+    </div> 
+   
+     
+      </div>
+      
+   
+
+    <script src="/public/form.js"></script>
