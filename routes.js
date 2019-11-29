@@ -76,7 +76,7 @@ app.get('/cartItems', (request, response)=>{
 
             var idsCart=[];
             
-            result[0].products.forEach(id => {
+            result[0].productos.forEach(id => {
                 idsCart.push(new ObjectID(id));
             });
 
@@ -84,7 +84,7 @@ app.get('/cartItems', (request, response)=>{
             .toArray((err,resultProducts) =>{
                 assert.equal(null,err);
                 var context = {
-                    products:resultProducts,
+                    productos:resultProducts,
                 };
                 response.render('cart',context);
             });
